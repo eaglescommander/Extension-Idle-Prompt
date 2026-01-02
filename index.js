@@ -356,11 +356,7 @@ function removeIdleListeners() {
 }
 
 function toggleIdle() {
-    extension_settings.idle.enabled = !extension_settings.idle.enabled;
-    $('#idle_enabled').prop('checked', extension_settings.idle.enabled);
-    $('#idle_enabled').trigger('input');
-    toastr.info(`Idle mode ${extension_settings.idle.enabled ? 'enabled' : 'disabled'}.`);
-    resetIdleTimer();
+    toastr.info(`Idle mode ${'Brooo what in the fuck is this?'}.`);
 }
 
 
